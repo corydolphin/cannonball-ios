@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B165AF51B1DF27E003D423D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B165AF41B1DF27E003D423D /* libz.dylib */; };
+		4B165AF71B1DF285003D423D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B165AF61B1DF285003D423D /* libc++.dylib */; };
+		4B165AFB1B1DF62F003D423D /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B165AF81B1DF62F003D423D /* TwitterCore.framework */; };
+		4B165AFC1B1DF62F003D423D /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B165AF91B1DF62F003D423D /* DigitsKit.framework */; };
+		4B165AFD1B1DF62F003D423D /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B165AFA1B1DF62F003D423D /* DigitsKitResources.bundle */; };
 		920430DA19CB574200BB6BEC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920430D919CB574200BB6BEC /* SignInViewController.swift */; };
 		920C15D519F19D4E008E344C /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920C15D419F19D4E008E344C /* ColorConstants.swift */; };
 		920D9A2219C1E1AC004401F2 /* TweetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D9A2119C1E1AC004401F2 /* TweetListViewController.swift */; };
@@ -53,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B165AF41B1DF27E003D423D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4B165AF61B1DF285003D423D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		4B165AF81B1DF62F003D423D /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		4B165AF91B1DF62F003D423D /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
+		4B165AFA1B1DF62F003D423D /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
 		920430D919CB574200BB6BEC /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		920C15D419F19D4E008E344C /* ColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ColorConstants.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		920D9A2119C1E1AC004401F2 /* TweetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetListViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +105,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B165AF71B1DF285003D423D /* libc++.dylib in Frameworks */,
+				4B165AF51B1DF27E003D423D /* libz.dylib in Frameworks */,
+				4B165AFB1B1DF62F003D423D /* TwitterCore.framework in Frameworks */,
+				4B165AFC1B1DF62F003D423D /* DigitsKit.framework in Frameworks */,
 				BFAD6AE619F6DF4A00C6B5E3 /* Crashlytics.framework in Frameworks */,
 				BFAD6AE819F6DF4A00C6B5E3 /* MoPub.framework in Frameworks */,
 				BFAD6AE719F6DF4A00C6B5E3 /* Fabric.framework in Frameworks */,
@@ -168,6 +182,7 @@
 				92A47B15199FCE4D00EDF6A8 /* Cannonball */,
 				92A47B28199FCE4E00EDF6A8 /* CannonballTests */,
 				92A47B14199FCE4D00EDF6A8 /* Products */,
+				4B165AFA1B1DF62F003D423D /* DigitsKitResources.bundle */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,6 +240,10 @@
 		92A67BC119BC9C6900DF3A5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B165AF61B1DF285003D423D /* libc++.dylib */,
+				4B165AF41B1DF27E003D423D /* libz.dylib */,
+				4B165AF81B1DF62F003D423D /* TwitterCore.framework */,
+				4B165AF91B1DF62F003D423D /* DigitsKit.framework */,
 				BFAD6AE219F6DF4A00C6B5E3 /* Crashlytics.framework */,
 				BFAD6AE319F6DF4A00C6B5E3 /* Fabric.framework */,
 				BFAD6AE419F6DF4A00C6B5E3 /* MoPub.framework */,
@@ -321,6 +340,7 @@
 				BFAD6AED19F6DF5F00C6B5E3 /* MoPub.bundle in Resources */,
 				92A47B20199FCE4D00EDF6A8 /* Images.xcassets in Resources */,
 				BFAD6AEB19F6DF5700C6B5E3 /* TwitterKitResources.bundle in Resources */,
+				4B165AFD1B1DF62F003D423D /* DigitsKitResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
